@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StockArray
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ StockArray\ here.\r\n\r\n\ @author\ Umasathvik\ Pantham\r\n\ @version\ 04/17/2021\r\n
+comment1.params=length
+comment1.target=StockArray(int)
+comment1.text=\r\n\ Constructs\ a\ StockArray\ object\ by\ creating\ an\r\n\ array\ of\ Stock\ of\ the\ specified\ length\ and\ setting\r\n\ the\ number\ of\ stocks\ in\ the\ array\ to\ zero.\r\n\ \r\n\ @param\ length\ the\ length\ of\ theArray\r\n
+comment2.params=stock\ index
+comment2.target=void\ insert(Stock,\ int)
+comment2.text=\r\n\r\n\ @param\ stock\ the\ stock\ of\ the\ class\ Stock\r\n\ @param\ index\ the\ index\ of\ the\ array\r\n
+comment3.params=index1\ index2
+comment3.target=void\ swap(int,\ int)
+comment3.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ index1\ the\ index\ 1\ of\ the\ array\r\n\ @param\ index2\ the\ index\ 2\ of\ the\ array\r\n
+comment4.params=symbol
+comment4.target=double\ quote(java.lang.String)
+comment4.text=\r\n\ \ \ \ public\ double\ quote(String\ symbol)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ for\ (int\ i\=0;\ i<\ theArray.length;\ i++)\ \r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ Stock\ stock\ \=\ (Stock)theArray[i];\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println(stock);\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (stock\ \!\=\ null\ &&\ stock.getSymbol().equals(symbol))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ stock.getPrice();\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ -1;\r\n\ \ \ \ }\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ \r\n
+numComments=6
